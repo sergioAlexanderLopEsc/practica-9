@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+article{
+    background-color: silver;
+}
+
+nav{
+    background-color: black;
+}
+
+.custom-card {
+    border: none; 
+    border-radius: 0; 
+    box-shadow: none;
+    background-color: transparent;
+}
+
+footer{
+    float: left;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    background-color: lightsteelblue;
+    color: rgb(7, 0, 75);
+    text-align: center;
+    padding-top: 10px;
+}

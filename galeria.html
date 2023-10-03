@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/galeria.css"> 
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <title>Practica 9</title>
+</head>
+<body>
+        <header>
+            <nav>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    <article>
+        <div class="container mt-5 gallery-container">
+            <h2 class="text-center">Galería de Imágenes</h2>
+            <div class="row">
+            
+            <div class="col-md-4 thumbnail">
+                <a href="/img/G1.png" data-toggle="lightbox" data-gallery="example-gallery">
+                <img src="./img/G1.png" alt="Imagen 1">
+                </a>
+            </div>
+            <div class="col-md-4 thumbnail">
+                <a href="/img/G2.png" data-toggle="lightbox" data-gallery="example-gallery">
+                <img src="./img/G2.png" alt="Imagen 2">
+                </a>
+            </div>
+            <div class="col-md-4 thumbnail">
+                <a href="/img/G3.png" data-toggle="lightbox" data-gallery="example-gallery">
+                <img src="./img/G3.png" alt="Imagen 3">
+                </a>
+            </div>
+            
+            </div>
+        </div>
+        
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+        <script>
+            
+            $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+            });
+        </script>
+    </article>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>Dirección:</strong><br>Av. Central #789A<br>Tuxtla Gutierrez, Chiapas</p>
+                </div>
+                <div class="col-md-6 text-md-right">
+                    <p><strong>Contacto:</strong><br>Correo electrónico: ia_mexa@gmail.com<br>Teléfono: (+52) 961-567-2309</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

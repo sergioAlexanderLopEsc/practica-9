@@ -1,0 +1,41 @@
+article{
+    background-color: silver;
+    padding: 20px;
+}
+
+.about-us-container {
+    background-color: gray;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+.about-us-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.about-us-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: black;
+  }
+
+nav{
+    background-color: black;
+}
+
+footer{
+    float: left;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    background-color: lightsteelblue;
+    color: rgb(7, 0, 75);
+    text-align: center;
+    padding-top: 10px;
+}
